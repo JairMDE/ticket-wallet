@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "6000:6000"
+    volumes:
+      - ./app.py:/app/app.py
+      - ./imgtotext.py:/app/imgtotext.py
+    environment:
+      - FLASK_ENV=development
