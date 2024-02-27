@@ -46,7 +46,7 @@ There are also some dependencies for the OCR:
 Copy that address and copy it in the Postman application. You have to click on new, the HTTP, and paste the address.
 
 
-After that, you will have to change from GET to POST and add after the address `/image2text`. 
+After that, you will have to change from GET to POST and add after the address `/img2text`. 
 
 
 <img width="995" alt="Screenshot 2024-02-26 at 8 08 06 p m" src="https://github.com/JairMDE/ticket-wallet/assets/73959705/c7206fef-17f8-4066-b9c4-77946319da2b">
