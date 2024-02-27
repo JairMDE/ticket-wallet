@@ -1,14 +1,11 @@
-version: '3'
+version: "3.11"
 
 services:
-  app:
-    build:
-      context: .
-      dockerfile: Dockerfile
+  flask-app:
+    build: .
     ports:
       - "6000:6000"
     volumes:
-      - ./app.py:/app/app.py
-      - ./imgtotext.py:/app/imgtotext.py
+      - .:/app
     environment:
-      - FLASK_ENV=development
+      - FLASK_APP=app.py
