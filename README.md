@@ -5,7 +5,8 @@ This application provides an OCR (Optical Character Recognition) service, allowi
 
 ## Installation
 To install and get the app to function you can follow these steps:
-- Clone the repository and switch to the branch called `Cynthia/DBM`.
+- Clone the repository and switch to the branch called `Cynthia/DBM` with the `checkout` command.
+
 - Make sure you have Postman installed as well as Docker and Docker compose.
 
 ## Features
